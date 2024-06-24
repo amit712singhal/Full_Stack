@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+}
+
+td {
+  border: 10px solid white;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.col1 {
+  width: 25%;
+}
+
+.col2 {
+  width: 25%;
+}
+
+.col3 {
+  width: 40%;
+}

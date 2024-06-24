@@ -1,0 +1,23 @@
+div {
+  height: 200px;
+  width: 200px;
+}
+#num1 {
+  background-color: cadetblue;
+  padding: 20px;
+  border: 10px solid black;
+}
+#num2 {
+  margin-left: 260px;
+  background-color: gold;
+  border: 10px solid black;
+  border-width: 20px 10px;
+}
+#num3 {
+  margin-left: 40px;
+  background-color: indianred;
+  border: 10px solid black;
+}
+p {
+  margin: 0px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Express App</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+
+  <body>
+    <button type="submit" id="noAuth" onclick="window.location.href='/noAuth'">
+      No Auth
+    </button>
+    <button id="basicAuth" onclick="window.location.href='/basicAuth'">
+      Basic Auth
+    </button>
+    <button id="apiKey" onclick="window.location.href='/apiKey'">
+      API Key
+    </button>
+    <button id="bearerToken" onclick="window.location.href='/bearerToken'">
+      Bearer Token
+    </button>
+
+    <div class="response-area">
+      <p><%=content%></p>
+    </div>
+  </body>
+</html>

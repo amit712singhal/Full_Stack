@@ -1,0 +1,23 @@
+p {
+  padding-right: 10px;
+  margin: 0;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+  background-color: gold;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container li,
+p {
+  font-size: large;
+}

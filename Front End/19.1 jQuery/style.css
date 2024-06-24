@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+  font-size: 5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 5%;
+}
+
+button {
+    font-size: 2rem;
+    margin: 4%;
+    background-color: bisque;
+    padding: 2%;
+}

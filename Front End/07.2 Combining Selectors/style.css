@@ -1,0 +1,16 @@
+/* Combining CSS Selectors */
+
+/* Group */
+h1,h2{color: blueviolet}
+
+/* Parent > Direct Child*/
+.box > p{color: firebrick;}
+
+/* Descendant */
+.box li{color: blue;}
+
+/* Chaining */
+li.done{color: seagreen;}
+
+/* Combining Combiners */
+ul p.done{font-size: 0.5rem}

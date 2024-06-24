@@ -1,0 +1,19 @@
+div {
+  background-color: coral;
+  margin: 10px;
+}
+
+.one {
+  float: left;
+  width: 25%;
+}
+
+.two {
+  width: 25%;
+  float: left;
+}
+
+.three {
+  float: left;
+  width: 40%;
+}
