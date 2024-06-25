@@ -30,6 +30,6 @@ app.get("/", async (req, res) => {
 });
 
 // 4. Listen on your predefined port and start the server.
-app.listen(port, (req, res) => {
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
