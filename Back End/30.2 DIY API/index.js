@@ -67,8 +67,31 @@ app.patch("/jokes/:id", (req, res) => {
 });
 
 //7. DELETE Specific joke
+app.delete("/jokes/:id", (req, res) => {
+  const reqId = parseInt(req.params.id);
+  const idx = jokes.findIndex((joke) => joke.id === reqId);
+  if (idx > -1) {
+    jokes.splice(idx, 1);
+    res.sendStatus(200);
+  } else {
+    res
+      .status(404)
+      .json({ error: `Joke with id ${idx} not found. No jokes were deleted` });
+  }
+});
 
 //8. DELETE All jokes
+app.delete("/all", (req, res) => {
+  const userKey = req.query.key;
+  if (userKey == masterKey) {
+    jokes = [];
+    res.sendStatus(200);
+  } else {
+    res
+      .status(404)
+      .json({ error: `Wrong Master Key. No records were deleted` });
+  }
+});
 
 app.listen(port, () => {
   console.log(`Successfully started server on port ${port}.`);
